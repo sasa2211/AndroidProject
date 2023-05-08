@@ -1,0 +1,12 @@
+git常用命令
+
+git pull拉取最新代码
+git status -s 查看本地修改的内容
+git add . 添加修改后的代码
+git commit -m xxx  提交到缓存区
+git push 代码push到git服务器
+
+
+git branch  查看所有分支
+git checkout main2 main2是分支名，将当前分支切换到main2分支
+git merge main2    main2是分支名，将main2上修改的内容合并到当前分支

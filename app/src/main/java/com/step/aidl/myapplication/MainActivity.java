@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         List<String> items = new ArrayList<>();
         for (int i = 0; i < 10; i ++){
             items.add("i === " + String.valueOf(i));
-
         }
         for (String item : items){
             System.out.println(item);
