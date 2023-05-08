@@ -23,4 +23,17 @@ public class MainActivity extends AppCompatActivity {
             System.out.println(item);
         }
     }
+    private void switches(){
+        int i = (int) (Math.random()*10);
+        switch (i){
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            default:
+                break;
+        }
+    }
 }
